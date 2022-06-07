@@ -6,17 +6,18 @@
 .coin-row {
   display: flex;
   flex-direction: row;
-  justify-items: start;
+  justify-content: start;
   align-items: center;
   height: 80px;
-  width: 900px;
   border-bottom: 1px solid #d7d7d7;
+  width: 900px;
 }
 
 .coin {
   display: flex;
   align-items: center;
   padding-right: 24px;
+
   min-width: 300px;
 }
 
@@ -37,7 +38,7 @@
 
 .coin-data {
   display: flex;
-  text-align: center;
+  text-align: right;
   justify-content: space-between;
   width: 100%;
 }
@@ -47,19 +48,19 @@
 }
 
 .coin-volume {
-  width: 230px;
-}
-
-.coin-marketcap {
   width: 155px;
 }
 
+.coin-marketcap {
+  width: 230px;
+}
+
 .coin-percent {
-  width: 100%;
+  width: 100px;
 }
 
 .red {
-  color: #f00666;
+  color: #f00606;
 }
 
 .green {
